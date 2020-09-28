@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funeraria.Servicos.Web", "Funeraria.Servicos.Web\Funeraria.Servicos.Web.csproj", "{2E5D48A7-B9DE-4A63-A02F-1E4D8CEAFD48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{7E7B8AEC-57DC-45BF-A7D6-CC14A1561A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funeraria.Servico.Dominio", "Funeraria.Servico.Dominio\Funeraria.Servico.Dominio.csproj", "{BF5320FC-1A6C-4627-A3B4-59E7C8107ACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{74C7B149-CFF6-4109-9663-78DFCE0F33A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funeraria.Servico.Data.Entity", "Funeraria.Servico.Data.Entity\Funeraria.Servico.Data.Entity.csproj", "{C85A6A03-D6AF-4C74-BF36-D52A15669D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funeraria.Servico.Generic.Entity", "Funeraria.Servico.Generic.Entity\Funeraria.Servico.Generic.Entity.csproj", "{36CE4B04-4AA0-4347-BBD7-1150EE3AD939}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5D48A7-B9DE-4A63-A02F-1E4D8CEAFD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5D48A7-B9DE-4A63-A02F-1E4D8CEAFD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5D48A7-B9DE-4A63-A02F-1E4D8CEAFD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5D48A7-B9DE-4A63-A02F-1E4D8CEAFD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5320FC-1A6C-4627-A3B4-59E7C8107ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5320FC-1A6C-4627-A3B4-59E7C8107ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5320FC-1A6C-4627-A3B4-59E7C8107ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5320FC-1A6C-4627-A3B4-59E7C8107ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85A6A03-D6AF-4C74-BF36-D52A15669D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85A6A03-D6AF-4C74-BF36-D52A15669D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85A6A03-D6AF-4C74-BF36-D52A15669D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85A6A03-D6AF-4C74-BF36-D52A15669D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CE4B04-4AA0-4347-BBD7-1150EE3AD939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CE4B04-4AA0-4347-BBD7-1150EE3AD939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CE4B04-4AA0-4347-BBD7-1150EE3AD939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CE4B04-4AA0-4347-BBD7-1150EE3AD939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF5320FC-1A6C-4627-A3B4-59E7C8107ACF} = {7E7B8AEC-57DC-45BF-A7D6-CC14A1561A15}
+		{C85A6A03-D6AF-4C74-BF36-D52A15669D86} = {74C7B149-CFF6-4109-9663-78DFCE0F33A3}
+		{36CE4B04-4AA0-4347-BBD7-1150EE3AD939} = {74C7B149-CFF6-4109-9663-78DFCE0F33A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DCE43B9-D2B1-4EC3-A0F1-8CC4BA9080B1}
+	EndGlobalSection
+EndGlobal
